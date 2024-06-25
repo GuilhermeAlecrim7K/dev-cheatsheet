@@ -22,25 +22,6 @@ double myDoubleLiteral = 0.625; // or 0.625D
 */
 decimal myDecimalLiteral = 12.39816m;
 
-/* Formatting floating point values */
-double myValue = 12345.6789;
-Console.WriteLine($"{myValue:F2}"); // 12345.68 -> rounded
-Console.WriteLine(myValue.ToString("F2"));
-Console.WriteLine(string.Format("{0:F2}", myValue));
-
-/* Custom Formats */
-
-//F => fixed point notation
-Console.WriteLine($"{myValue:F2}"); // 12345.68
-
-//E => exponential
-Console.WriteLine($"{myValue:E2}"); // 1.23E+004
-
-//N => number
-Console.WriteLine($"{myValue:N2}"); // 12,345.68
-
-//P => percentage
-Console.WriteLine($"{myValue:P2}"); // 1,234,567.89 %
 Console.WriteLine("");
 Console.WriteLine("Floating point types:");
 Console.WriteLine($"float  : {float.MinValue} to {float.MaxValue} (with ~6-9 digits of precision)");
