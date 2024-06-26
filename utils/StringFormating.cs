@@ -19,6 +19,10 @@ Console.WriteLine(string.Format("{0:F2}", myValue));
 //F => fixed point notation
 Console.WriteLine($"{myValue:F2}"); // 12345.68
 
+//C => currency notation
+//Output depends on current culture
+Console.WriteLine($"{myValue:C}"); // $ 12,345.68
+
 //E => exponential
 Console.WriteLine($"{myValue:E2}"); // 1.23E+004
 
