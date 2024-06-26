@@ -1,3 +1,5 @@
+//https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings
+
 /* Formatting integral type values */
 int number = 1234;
 
