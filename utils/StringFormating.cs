@@ -31,3 +31,6 @@ Console.WriteLine($"{myValue:N2}"); // 12,345.68
 
 //P => percentage
 Console.WriteLine($"{myValue:P2}"); // 1,234,567.89 %
+
+// Override culture info for the application
+CultureInfo.CurrentCulture = CultureInfo.CreateSpecificCulture("pt-BR");
