@@ -1,0 +1,1 @@
+Get-ChildItem -Path . -Filter 'TRA*.data' -Recurse | ForEach-Object { $_.Name }
